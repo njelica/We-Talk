@@ -1,0 +1,100 @@
+style.css
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  header {
+    background-color: skyblue;
+    color: white;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+ 
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  
+  .chat-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .chat {
+    height: 300px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+  }
+  
+  .message {
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .received {
+    background-color: #f0f0f0;
+  }
+  
+  .sent {
+    background-color: #DCF8C6;
+    text-align: right;
+  }
+  
+  .input-area {
+    display: flex;
+  }
+  
+  .input-area input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+  }
+  
+  .input-area button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  .search1{
+    font-size: 50px;
+  }
+  .search2{
+    width: 500px;
+    padding: 10px;
+  }
+  .user1{
+    font-size: 50px;
+  }
